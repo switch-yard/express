@@ -116,6 +116,10 @@ npm start
 
   View the website at: http://localhost:3000
 
+## Working with agents
+
+Changes from coding agents reach this repository through a merge queue. Each change is tested together with master and with the other changes waiting beside it before it goes in. A change whose tests fail is sent back to its agent, so master only ever holds work that passed.
+
 ## Philosophy
 
   The Express philosophy is to provide small, robust tooling for HTTP servers, making
