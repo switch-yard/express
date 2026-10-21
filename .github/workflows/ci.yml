@@ -8,6 +8,7 @@ on:
       - '4.x'
       - '5.x'
       - '5.0'
+      - 'switchyard/test/**'
     paths-ignore:
       - '*.md'
   pull_request:
